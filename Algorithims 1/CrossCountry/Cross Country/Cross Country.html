@@ -1,0 +1,221 @@
+<html>
+
+<head>
+    <title>Cross Country</title>
+    <link type="text/css" rel="stylesheet" href="Cross Country.css" />
+    <script src="Crosscountry2.js">
+    </script>
+</head>
+<center>
+
+    <body>
+        <p>
+            <img src="images/crosscountry.jpeg" alt="Cross Country assignment">
+        </p>
+        <p>Welcome to the cross country calculator, please input the proper values into each table</p>
+        <div id="firstHalf">
+            <center>
+                <p><b>First Table</b>
+                </p>
+                <table id="firstTable" border="1 , bold" style="width:80%">
+                    <tr style="font-bold">
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>First Mile</th>
+                        <th>Second Mile</th>
+                        <th>Final Time</th>
+                        <th>Buttons and Stuff</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" id="firstguy,firstname" name="firstguy,firstname" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="firstguy,lastname" name="firstguy,lastname" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="firstguy,firstlap" name="firstguy,firstlap" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="firstguy,secondlap" name="firstguy,secondlap" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="firstguy,totaltime" name="firstguy,totaltime" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="button" value="update" onclick="javascript:update1()">
+                            <input type="button" value="delete" onclick="javascript:delete1()">
+                            <input type="button" value="restore" onclick ="javascript:restore1()">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" id="secondguy,firstname" name="secondguy,firstname" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="secondguy,lastname" name="secondguy,lastname" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="secondguy,firstlap" name="secondguy,firstlap" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="secondguy,secondlap" name="secondguy,secondlap" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="secondguy,totaltime" name="secondguy,totaltime" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="button" value="update" onclick="javascript:update2()">
+                            <input type="button" value="delete" onclick="javascript:delete2()">
+                            <input type="button" value="restore" onclick="javascript:restore2()">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" id="thirdguy,firstname" name="thirdguy,firstname" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="thirdguy,lastname" name="thirdguy,lastname" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="thirdguy,firstlap" name="thirdguy,firstlap" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="thirdguy,secondlap" name="thirdguy,secondlap" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="thirdguy,totaltime" name="thirdguy,totaltime" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="button" value="update" onclick="javascript:update3()">
+                            <input type="button" value="delete" onclick="javascript:delete3()">
+                            <input type="button" value="restore" onclick="javascript:restore3()">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" id="fourthguy,firstname" name="fourthguy,firstname" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="fourthguy,lastname" name="fourthguy,lastname" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="fourthguy,firstlap" name="fourthguy,firstlap" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="fourthguy,secondlap" name="fourthguy,secondlap" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="fourthguy,totaltime" name="fourthguy,totaltime" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="button" value="update" onclick="javascript:update4()">
+                            <input type="button" value="delete" onclick="javascript:delete4()">
+                            <input type="button" value="restore" onclick= "javascript:restore4()">
+                        </td>
+                    </tr>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" id="fithguy,firstname" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="fithguy,lastname" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="fithguy,firstlap" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="fithguy,secondlap" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="text" id="fithguy,totaltime" style="width:100%">
+                        </td>
+                        <td>
+                            <input type="button" value="update" onclick="javascript:update5()">
+                            <input type="button" value="delete" onclick="javascript:delete5()">
+                            <input type="button" value="restore" onclick="javascript:restore5()">
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </div>
+        <center>
+            <p><b>Second Table</b>
+            </p>
+            <div id="second table">
+                <table id="secondTable" border="1 , bold" style="width:80%">
+                    <tr>
+                        <th>Runner name</th>
+                        <th>Split one</th>
+                        <th>Split two</th>
+                        <th>Split Three</th>
+                        <th>total time</th>
+                    </tr>
+                    <tr>
+                        <td id="firstRunnerName">
+                        </td>
+                        <td id="firstRunnerSplit1">
+                        </td>
+                        <td id="firstRunnerSplit2">
+                        </td>
+                        <td id="firstRunnerSplit3">
+                        </td>
+                        <td id="FirstRunnerTotalTime">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="secondRunnerName">
+                        </td>
+                        <td id="secondRunnerSplit1">
+                        </td>
+                        <td id="secondRunnerSplit2">
+                        </td>
+                        <td id="secondRunnerSplit3">
+                        </td>
+                        <td id="secondRunnerTotalTime">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="thirdRunnerName">
+                        </td>
+                        <td id="thirdRunnerSplit1">
+                        </td>
+                        <td id="thirdRunnerSplit2">
+                        </td>
+                        <td id="thirdRunnerSplit3">
+                        </td>
+                        <td id="thirdRunnerTotalTime">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="fourthRunnerName">
+                        </td>
+                        <td id="fourthRunnerSplit1">
+                        </td>
+                        <td id="fourthRunnerSplit2">
+                        </td>
+                        <td id="fourthRunnerSplit3">
+                        </td>
+                        <td id="fourthRunnerTotalTime">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="fithRunnerName">
+                        </td>
+                        <td id="fithRunnerSplit1">
+                        </td>
+                        <td id="fithRunnerSplit2">
+                        </td>
+                        <td id="firthRunnerSplit3">
+                        </td>
+                        <td id="firthRunnerTotalTime">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </center>
+    </body>
+</center>
+
+</html>

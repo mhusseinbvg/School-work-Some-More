@@ -1,0 +1,24 @@
+#firsthalf{
+	border-collapse: collapse;
+	text-align: center;
+
+}
+
+#secondtable tr:nth-child(even){
+	background-color: #ccc;
+}
+
+th{
+	text-align: center;
+	height: 20px;
+}
+
+td{
+	height: 20px;
+	border:2px ;
+}
+
+p{
+	text-align: center;
+	
+}
