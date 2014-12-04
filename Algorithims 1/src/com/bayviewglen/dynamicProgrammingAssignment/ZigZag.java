@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class ZigZag {
 
 	public static void main(String[] args) {
-		int[] zigZag = {};// enter the integers here
+		int[] zigZag = {70, 55, 13, 2, 99, 2, 80, 80, 80, 80, 100, 19, 7, 5, 5, 5, 1000, 32, 32};// enter the integers here
 		ArrayList<Integer> solutions = new ArrayList<Integer>();// puts them into list because so much easier to use
 		for(int w = 0; w < zigZag.length; ++ w)
 			solutions.add(zigZag[w]);
