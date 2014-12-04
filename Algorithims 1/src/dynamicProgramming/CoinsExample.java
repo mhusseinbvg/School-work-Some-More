@@ -27,11 +27,6 @@ public class CoinsExample {
 			}
 		}
 		System.out.println("the answer is: " + min[11]);
-		System.out.println("The coins needed are:");
-		System.out.println("One value coins: " + solutions[11][0]);
-		System.out.println("Three value coins: " + solutions[11][1] );
-		System.out.println("Five value coins: " + solutions[11][2] );
-
 
 
 	}
